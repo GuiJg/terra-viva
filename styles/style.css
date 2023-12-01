@@ -118,6 +118,18 @@ body{
 }
 
 #img2{
+    position: absolute;
+    top: 63%;
+    left: 47%;
+    width: 30%;
+}
+
+.element-brown{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    width: 40%;
+    height: 30%;
     background-color: #a67c52;
     border-top-left-radius: 10em;
     border-bottom-left-radius: 10em;
