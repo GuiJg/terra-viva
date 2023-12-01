@@ -111,3 +111,14 @@ body{
 .about-button:hover{
     background-color: #39b54a;
 }
+
+#img1{
+    background-color: #39b54a;
+    border-top-right-radius: 20em;
+}
+
+#img2{
+    background-color: #a67c52;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+}
