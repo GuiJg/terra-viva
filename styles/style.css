@@ -168,18 +168,19 @@ body{
 .division{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     position: absolute;
     top: 130%;
-    padding: 2%;
+    padding: 1%;
+    padding-top: 2%;
     background-color: #066130;
     box-shadow: 1px 5px 10px 1px #0000006b;
 }
 
 .division img{
-    margin-bottom: 10%;
-    width: 100%;
+    margin-bottom: 20%;
+    width: 80%;
 }
 
 .item{
@@ -187,7 +188,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 5%;
+    width: 7%;
     margin: 0% 10% 0% 0%;
 }
 
@@ -195,4 +196,5 @@ body{
     font-size: 1.1rem;
     color: #ffff;
     font-weight: 600;
+    width: 100%;
 }
