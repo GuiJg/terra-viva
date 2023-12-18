@@ -325,10 +325,10 @@ body {
 }
 
 .product{
-  display: inline-block;
+  display: flex;
+  align-items: center;
   position: relative;
   overflow-y: hidden;
-  cursor: pointer;
   border-radius: 2.5em;
   border: 5px solid #885E4B;
   height: 27em;
@@ -341,6 +341,10 @@ body {
   flex-direction: column;
   overflow-y: hidden;
   transition: 0.5s;
+}
+
+.project-image1 img{
+  width: 10px;
 }
 
 .product:hover .product-image1{
@@ -361,7 +365,7 @@ body {
 }
 
 .product:hover .product-image2{
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -50%);
 }
 
 .products img{
