@@ -26,12 +26,6 @@ body {
   transition: all 0.3s;
 }
 
-/* .header.sticky{
-    margin: 0;
-    padding: 0% 6% 0% 6%;
-    background-color: #39b54a;
-} */
-
 .header-logo {
   width: 10%;
 }
@@ -80,6 +74,43 @@ body {
 .header-link:hover::after {
   width: 100%;
   transform: translateX(0%);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  height: 3em;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
 }
 
 .main-page {
@@ -447,7 +478,7 @@ body {
   border: 1px solid transparent;
   border-radius: 10px;
   margin: 1%;
-  padding: 1.5%;
+  padding: 2%;
   color: #000;
   transition: all 0.5s;
 }
@@ -479,10 +510,11 @@ body {
   text-decoration: none;
   background-color: #a67c52;
   box-shadow: 0px 2px 5px 1px #0000006b;
-  padding: 1.2%;
+  padding: 1.8%;
   margin: 0.3%;
+  margin-top: 3%;
   margin-bottom: 1%;
-  width: 40%;
+  width: 35%;
   border-radius: 10em;
   border: 0;
   cursor: pointer;
@@ -546,4 +578,24 @@ body {
 .medias-buttons img{
   width: 100%;
   height: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  background-color: #39B54A;
+  color: #ffff;
+  padding: 2%;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+strong a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+strong a:hover{
+  text-decoration: underline;
 }

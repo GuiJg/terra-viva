@@ -13,6 +13,212 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-@media (max-width: 800px){
-    
+@media (max-width: 800px){ 
+
+  .header{
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .header-menu{
+    background: none;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 0;
+    margin-top: 10%;
+  }
+
+  .header-menu.active{
+    display: flex;
+  }
+
+  .header-link{
+    color: #000;
+    font-size: 1.5rem;
+  }
+
+  .header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-logo a{
+    width: 20%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  
+  .farmer-element,
+  .planta-elemento{
+    display: none;
+  }
+
+  .main-content{
+    margin-top: 10%;
+  }
+
+  .content{
+    width: 100%;
+    gap: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .content h1{
+    margin: 0;
+    font-size: 2.8rem;
+  }
+
+  .content p{
+    margin: 0;
+  }
+
+  .about-button{
+    width: 50%;
+    padding: 3%;
+    margin-bottom: 8%;
+  }
+
+  .division{
+    padding: 5%;
+  }
+
+  .item{
+    width: 30%;
+  }
+
+  .item p{
+    font-size: 0.7rem;
+  }
+
+  .main-carrossel{
+    padding: 5%;
+    height: auto;
+  }
+
+  .carrossel{
+    flex-direction: column;
+  }
+
+  .carrossel img{
+    width: 100%;
+  }
+
+  .carrossel-text{
+    width: 100%;
+    text-align: start;
+    margin-top: 10%;
+  }
+
+  .carrossel-text h1{
+    font-size: 2.5rem;
+  }
+
+  .carrossel-text p{
+    font-size: 1rem;
+  }
+
+  .about-page{
+    padding-top: 10%;
+  }
+
+  .about-container{
+    flex-direction: column;
+  }
+
+  .about-text{
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .about-text h2{
+    font-size: 2.5rem;
+  }
+
+  .about-image{
+    display: none;
+  }
+
+  .product-page #element-brown-plant{
+    display: none;
+  }
+
+  .container-product{
+    padding-top: 10%;
+  }
+
+  .container-product h2{
+    font-size: 2.5rem;
+  }
+
+  .container-product p{
+    width: 100%;
+    padding-bottom: 15%;
+  }
+
+  .container-product a{
+    width: 40%;
+    padding: 2%;
+    margin-top: 10%;
+  }
+
+  .container-item{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .product{
+    width: 15em;
+    height: 24em;
+  }
+
+  .product-image2 img{
+    width: 300px;
+  }
+
+  .planta-produto img{
+    top: 82%;
+    left: 65%;
+  }  
+
+  .footer-page{
+    flex-direction: column;
+    padding: 10% 0% 10% 0%;
+  }
+
+  .forms{
+    width: 100%;
+  }
+
+  .forms h2{
+    margin-left: 6%;
+  }
+
+  .form{
+    width: 90%;
+  }
+  .form button{
+    padding: 2.5%;
+  }
+
+  .medias-container{
+    align-items: start;
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .medias-buttons{
+    width: 80%;
+  }
+
+  footer{
+    font-size: 1.2rem;
+  }
 }
