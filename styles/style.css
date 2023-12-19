@@ -96,7 +96,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5%;
-  margin-left: 2%;
+  margin-left: 7%;
 }
 
 .content h1 {
@@ -133,7 +133,7 @@ body {
 }
 
 .farmer-element{
-  width: 100%;
+  width: 1600px;
 }
 
 .farmer-element img{
@@ -142,8 +142,8 @@ body {
 
 .planta-elemento{
   position: absolute;
-  top: 93%;
-  left: 64%;
+  top: 85%;
+  left: 60%;
   width: 120%;
 }
 
@@ -151,23 +151,8 @@ body {
   width: 100%;
 }
 
-.element-green {
-  width: 24%;
-  height: 104%;
-  background-color: #39b54a;
-  border-top-right-radius: 20em;
-} 
-
 #img2 {
-  width: 30%;
-}
-
-.element-brown {
-  width: 40%;
-  height: 30%;
-  background-color: #a67c52;
-  border-top-left-radius: 10em;
-  border-bottom-left-radius: 10em;
+  width: 35%;
 }
 
 .division {
