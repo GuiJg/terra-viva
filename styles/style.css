@@ -249,6 +249,8 @@ body {
 
 .about-page{
   display: flex;
+  padding-top: 3%;
+  padding-bottom: 10%;
 }
 
 .about-container{
@@ -262,7 +264,9 @@ body {
 }
 
 .about-image img{
-  width: 100%;
+  width: 46%;
+  position: absolute;
+  top: 240%;
 }
 
 .about-text{
@@ -290,6 +294,13 @@ body {
   border-bottom: 40px solid #39b54a;
   box-shadow: 0px 10px 10px 0px #0000006b;
   padding-bottom: 7%;
+  overflow-y: hidden;
+}
+
+.product-page #element-brown-plant{
+  position: absolute;
+  width: 21%;
+  top: 10%;
 }
 
 .container-product{
@@ -332,7 +343,7 @@ body {
   border-radius: 2.5em;
   border: 5px solid #885E4B;
   height: 27em;
-  width: 22em;
+  width: 18em;
   transition: 0.5s;
 }
 
@@ -356,7 +367,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -50%);
   transition: 0.5s;
 }
 
@@ -365,7 +376,7 @@ body {
 }
 
 .product:hover .product-image2{
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -55%);
 }
 
 .products img{
@@ -391,6 +402,19 @@ body {
 
 .container-product a:hover {
   background-color: #a67c52;
+}
+
+.planta-produto{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.planta-produto img{
+  position: absolute;
+  top: 62%;
+  left: 85%;
+  transform: rotate(-30deg);
 }
 
 .footer-page{
